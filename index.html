@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="login-container" id="login-screen">
+    <h2>Log In</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <p id="error-msg"></p>
+  </div>
+
+  <div class="message-screen" id="message-screen" style="display: none;">
+    <div class="cake-icon" onclick="toggleMessage()">🎂</div>
+    <div class="message-box" id="message-box">
+      <h2>Warning: Long message ahead</h2>
+      <p>
+        <strong>Dearest baks,</strong><br/><br/>
+        Happy Birthday!<br/><br/>
+
+        Before ka ma shock on why I gave you this, it is really in my nature to write hand written letters to the people I care about. Archaic it may seem, but it really gives me joy to let the people know what I truly felt.<br/><br/>
+
+        Have I mentioned that I like it when you smile? Ooh, I have? Wowowowow, na mention na diay nako. Ooh, I have not yet? wwowowow, now you know na. chz hahahaha, jokes aside, you just look so bright with your smile on your face. Pero baks, unsa jud diay inyong toothpaste? puti kaykag ngipon hahahahhaa<br/><br/>
+
+        It has been a while already since all of the twist and turns... (message continues below)
+        <br/><br/>
+        <em>Soft hours,</em><br/>
+        <strong>Vienna</strong>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
