@@ -10,3 +10,8 @@ function login() {
     errorMsg.textContent = "Incorrect username or password.";
   }
 }
+
+function toggleMessage() {
+  const box = document.getElementById("message-box");
+  box.style.display = box.style.display === "none" ? "block" : "none";
+}
