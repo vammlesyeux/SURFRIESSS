@@ -1,78 +1,58 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: 'Georgia', serif;
+  background-color: #f4f1ee;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-h2 {
-  color: #3a3a3a;
+  color: #3e3e3e;
 }
 
 .login-container {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 300px;
+  padding: 50px;
 }
 
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 0.8rem;
-  border: none;
-  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 10px;
   cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-.error-msg {
-  color: red;
-  font-size: 0.9rem;
+  background-color: #c8a97e;
+  border: none;
+  color: white;
+  border-radius: 5px;
 }
 
 .message-screen {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 300px;
+  padding: 30px;
 }
 
 .cake-icon {
-  font-size: 3rem;
+  font-size: 80px;
   cursor: pointer;
 }
 
 .message-box {
-  margin-top: 2rem;
+  display: none;
+  margin-top: 20px;
 }
 
-.message-box h2 {
-  color: #3a3a3a;
-}
-
-.message-box p {
-  font-size: 1rem;
+.letter-style {
+  background-color: #fffaf5;
+  padding: 30px;
+  border: 1px solid #d8ccc0;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  text-align: left;
+  font-size: 16px;
   line-height: 1.6;
-  color: #555;
-}
+  }
