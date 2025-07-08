@@ -3,7 +3,7 @@ function login() {
   const password = document.getElementById("password").value.trim();
   const errorMsg = document.getElementById("error-msg");
 
-  if (username === "kinnette dainne".toLowerCase() && password === "July 6, 2003") {
+  if (username === "kinnette dainne".toLowerCase() && password === "070603") {
     document.getElementById("login-screen").style.display = "none";
     document.getElementById("message-screen").style.display = "block";
   } else {
