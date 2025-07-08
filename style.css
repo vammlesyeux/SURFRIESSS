@@ -4,6 +4,11 @@ body {
   margin: 0;
   padding: 0;
   color: #3e3e3e;
+  height: 100%; /* Updated */
+}
+
+html {
+  height: 100%; /* Updated */
 }
 
 .login-container {
@@ -29,29 +34,25 @@ button {
   border-radius: 5px;
 }
 
+/* Updated styles for centering and size */
 .message-screen {
-  text-align: center;
-  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh; /* Full viewport height for vertical centering */
+  text-align: center;
 }
 
 .cake-icon {
-  font-size: 120px; /* Increased size */
+  font-size: 160px; /* Increased icon size */
   cursor: pointer;
   margin-bottom: 10px;
 }
 
-.message-box {
-  display: none;
-  margin-top: 20px;
-}
-
 .birthday-subtext {
   font-style: italic;
-  font-size: 20px;
+  font-size: 24px; /* Slightly larger for better visual balance */
   color: #9c6b4f;
   margin-top: 10px;
   opacity: 0;
@@ -66,6 +67,10 @@ button {
   }
 }
 
+.message-box {
+  display: none;
+  margin-top: 20px;
+}
 
 .letter-style {
   background-color: #fffaf5;
@@ -78,4 +83,4 @@ button {
   text-align: left;
   font-size: 16px;
   line-height: 1.6;
-  }
+}
