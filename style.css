@@ -4,11 +4,11 @@ body {
   margin: 0;
   padding: 0;
   color: #3e3e3e;
-  height: 100%; /* Updated */
+  height: 100%; 
 }
 
 html {
-  height: 100%; /* Updated */
+  height: 100%; 
 }
 
 .login-container {
@@ -34,25 +34,24 @@ button {
   border-radius: 5px;
 }
 
-/* Updated styles for centering and size */
 .message-screen {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Full viewport height for vertical centering */
+  height: 100vh; 
   text-align: center;
 }
 
 .cake-icon {
-  font-size: 160px; /* Increased icon size */
+  font-size: 160px; 
   cursor: pointer;
   margin-bottom: 10px;
 }
 
 .birthday-subtext {
   font-style: italic;
-  font-size: 24px; /* Slightly larger for better visual balance */
+  font-size: 24px;
   color: #9c6b4f;
   margin-top: 10px;
   opacity: 0;
